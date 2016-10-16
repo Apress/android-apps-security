@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Here is the data you stored:</string>
+    <string name="app_name">StoargeExample1</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ZenLibraryActivity!</string>
+    <string name="app_name">ZenLibrary</string>
+    <string name="label_purgeDatabase">purge database permission</string>
+    <string name="description_purgeDatabase">purge database</string>
+</resources>

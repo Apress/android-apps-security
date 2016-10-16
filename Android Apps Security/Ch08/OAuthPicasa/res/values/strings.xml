@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, OAuthPicasaActivity!</string>
+    <string name="app_name">Picasa Web Albums Browser</string>
+    <string name="authBut">Authorize</string>
+    <string name="auth_name">Please Sign Into your Account</string>
+
+</resources>

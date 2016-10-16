@@ -1,0 +1,7 @@
+final Contact contact = new Contact();
+contact.setFirstName("Sheran");
+contact.setLastName("Gunasekera");
+contact.setAddress1("");
+contact.setAddress2("");
+contact.setEmail("sheran@zenconsult.net");
+contact.setPhone("12120031337");

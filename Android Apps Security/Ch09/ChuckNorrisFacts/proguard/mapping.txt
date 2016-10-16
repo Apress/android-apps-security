@@ -1,0 +1,25 @@
+net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity -> net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity:
+    android.app.Activity activity -> a
+    android.widget.TextView view -> b
+    net.zenconsult.android.chucknorris.CommsEvent event -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onTextReceived(java.lang.String) -> a
+    android.widget.TextView access$0(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity) -> a
+    net.zenconsult.android.chucknorris.CommsEvent access$1(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity) -> b
+net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity$1 -> net.zenconsult.android.chucknorris.d:
+    net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity$2 -> net.zenconsult.android.chucknorris.c:
+    net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity this$0 -> a
+    java.lang.String val$text -> b
+    void run() -> run
+net.zenconsult.android.chucknorris.Comms -> net.zenconsult.android.chucknorris.e:
+    java.lang.String url -> a
+    org.apache.http.impl.client.DefaultHttpClient client -> b
+    java.lang.String get() -> a
+    java.io.InputStream doGetAsInputStream(java.lang.String) -> a
+net.zenconsult.android.chucknorris.CommsEvent -> net.zenconsult.android.chucknorris.a:
+    void onTextReceived(java.lang.String) -> a
+net.zenconsult.android.chucknorris.CommsNotifier -> net.zenconsult.android.chucknorris.b:
+    net.zenconsult.android.chucknorris.CommsEvent event -> a
+    void run() -> run

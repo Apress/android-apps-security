@@ -1,0 +1,999 @@
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x601
+    = public interface net.zenconsult.android.chucknorris.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  - Class [java/lang/Object]
+  - Class [net/zenconsult/android/chucknorris/a]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/zenconsult/android/chucknorris/a]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x401
+      = public abstract void a(java.lang.String)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity extends android.app.Activity
+
+Interfaces (count = 1):
+  - Class [net/zenconsult/android/chucknorris/a]
+
+Constant Pool (count = 68):
+  - Integer [2130903040]
+  - Integer [2131034113]
+  - Integer [2131034115]
+  - Class [android/app/Activity]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [android/widget/Button]
+  - Class [android/widget/TextView]
+  - Class [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  - Class [net/zenconsult/android/chucknorris/a]
+  - Class [net/zenconsult/android/chucknorris/c]
+  - Class [net/zenconsult/android/chucknorris/d]
+  - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a Landroid/app/Activity;]
+  - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.b Landroid/widget/TextView;]
+  - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.c Lnet/zenconsult/android/chucknorris/a;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.findViewById (I)Landroid/view/View;]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.runOnUiThread (Ljava/lang/Runnable;)V]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.setContentView (I)V]
+  - Methodref [net/zenconsult/android/chucknorris/c.<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V]
+  - Methodref [net/zenconsult/android/chucknorris/d.<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V]
+  + NameAndType [<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Landroid/widget/TextView;]
+  + NameAndType [c Lnet/zenconsult/android/chucknorris/a;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [runOnUiThread (Ljava/lang/Runnable;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Ljava/lang/Runnable;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lnet/zenconsult/android/chucknorris/a;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [findViewById]
+  + Utf8 [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  + Utf8 [net/zenconsult/android/chucknorris/a]
+  + Utf8 [net/zenconsult/android/chucknorris/c]
+  + Utf8 [net/zenconsult/android/chucknorris/d]
+  + Utf8 [onCreate]
+  + Utf8 [runOnUiThread]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 3):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x2
+      = private android.app.Activity a
+  + Field:        b Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView b
+  + Field:        c Lnet/zenconsult/android/chucknorris/a;
+    Access flags: 0x2
+      = private net.zenconsult.android.chucknorris.a c
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ChuckNorrisFactsActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #16
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 55, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #17
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        - Integer [2130903040]
+      [8] invokevirtual #21
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] putfield #13
+        - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a Landroid/app/Activity;]
+      [16] aload_0 v0
+      [17] aload_0 v0
+      [18] putfield #15
+        - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.c Lnet/zenconsult/android/chucknorris/a;]
+      [21] aload_0 v0
+      [22] aload_0 v0
+      [23] ldc #2
+        - Integer [2131034113]
+      [25] invokevirtual #19
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.findViewById (I)Landroid/view/View;]
+      [28] checkcast #8
+        - Class [android/widget/TextView]
+      [31] putfield #14
+        - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.b Landroid/widget/TextView;]
+      [34] aload_0 v0
+      [35] ldc #3
+        - Integer [2131034115]
+      [37] invokevirtual #19
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.findViewById (I)Landroid/view/View;]
+      [40] checkcast #7
+        - Class [android/widget/Button]
+      [43] new #12
+        - Class [net/zenconsult/android/chucknorris/d]
+      [46] dup
+      [47] aload_0 v0
+      [48] invokespecial #23
+        - Methodref [net/zenconsult/android/chucknorris/d.<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V]
+      [51] invokevirtual #18
+        - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [54] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] new #11
+        - Class [net/zenconsult/android/chucknorris/c]
+      [4] dup
+      [5] aload_0 v0
+      [6] aload_1 v1
+      [7] invokespecial #22
+        - Methodref [net/zenconsult/android/chucknorris/c.<init> (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V]
+      [10] invokevirtual #20
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.runOnUiThread (Ljava/lang/Runnable;)V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;
+    Access flags: 0x1008
+      = static android.widget.TextView a(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #14
+        - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.b Landroid/widget/TextView;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;
+    Access flags: 0x1008
+      = static net.zenconsult.android.chucknorris.a b(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #15
+        - Fieldref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.c Lnet/zenconsult/android/chucknorris/a;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/b
+  Superclass:    java/lang/Thread
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class net.zenconsult.android.chucknorris.b extends java.lang.Thread
+
+Interfaces (count = 0):
+
+Constant Pool (count = 27):
+  - Class [java/lang/Thread]
+  - Class [net/zenconsult/android/chucknorris/a]
+  - Class [net/zenconsult/android/chucknorris/b]
+  - Class [net/zenconsult/android/chucknorris/e]
+  - Fieldref [net/zenconsult/android/chucknorris/b.a Lnet/zenconsult/android/chucknorris/a;]
+  - Methodref [java/lang/Thread.<init> ()V]
+  - Methodref [net/zenconsult/android/chucknorris/e.<init> ()V]
+  - Methodref [net/zenconsult/android/chucknorris/e.a ()Ljava/lang/String;]
+  - InterfaceMethodref [net/zenconsult/android/chucknorris/a.a (Ljava/lang/String;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [a Lnet/zenconsult/android/chucknorris/a;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/a;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lnet/zenconsult/android/chucknorris/a;]
+  + Utf8 [a]
+  + Utf8 [java/lang/Thread]
+  + Utf8 [net/zenconsult/android/chucknorris/a]
+  + Utf8 [net/zenconsult/android/chucknorris/b]
+  + Utf8 [net/zenconsult/android/chucknorris/e]
+  + Utf8 [run]
+
+Fields (count = 1):
+  + Field:        a Lnet/zenconsult/android/chucknorris/a;
+    Access flags: 0x2
+      = private net.zenconsult.android.chucknorris.a a
+
+Methods (count = 2):
+  - Method:       <init>(Lnet/zenconsult/android/chucknorris/a;)V
+    Access flags: 0x1
+      = public b(net.zenconsult.android.chucknorris.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        - Methodref [java/lang/Thread.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #5
+        - Fieldref [net/zenconsult/android/chucknorris/b.a Lnet/zenconsult/android/chucknorris/a;]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x11
+      = public final void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 2, stack = 2):
+      [0] new #4
+        - Class [net/zenconsult/android/chucknorris/e]
+      [3] dup
+      [4] invokespecial #7
+        - Methodref [net/zenconsult/android/chucknorris/e.<init> ()V]
+      [7] astore_1 v1
+      [8] aload_0 v0
+      [9] getfield #5
+        - Fieldref [net/zenconsult/android/chucknorris/b.a Lnet/zenconsult/android/chucknorris/a;]
+      [12] aload_1 v1
+      [13] invokevirtual #8
+        - Methodref [net/zenconsult/android/chucknorris/e.a ()Ljava/lang/String;]
+      [16] invokeinterface #9
+        - InterfaceMethodref [net/zenconsult/android/chucknorris/a.a (Ljava/lang/String;)V]
+      [21] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class net.zenconsult.android.chucknorris.c extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [java/lang/Runnable]
+
+Constant Pool (count = 33):
+  - Class [android/widget/TextView]
+  - Class [java/lang/Object]
+  - Class [java/lang/Runnable]
+  - Class [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  - Class [net/zenconsult/android/chucknorris/c]
+  - Fieldref [net/zenconsult/android/chucknorris/c.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  - Fieldref [net/zenconsult/android/chucknorris/c.b Ljava/lang/String;]
+  - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + NameAndType [a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  + Utf8 [a]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  + Utf8 [net/zenconsult/android/chucknorris/c]
+  + Utf8 [run]
+  + Utf8 [setText]
+
+Fields (count = 2):
+  + Field:        a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;
+    Access flags: 0x1002
+      = private net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x1012
+      = private final java.lang.String b
+
+Methods (count = 2):
+  - Method:       <init>(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;Ljava/lang/String;)V
+    Access flags: 0x0
+      = c(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        - Fieldref [net/zenconsult/android/chucknorris/c.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #7
+        - Fieldref [net/zenconsult/android/chucknorris/c.b Ljava/lang/String;]
+      [10] aload_0 v0
+      [11] invokespecial #9
+        - Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x11
+      = public final void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #6
+        - Fieldref [net/zenconsult/android/chucknorris/c.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+      [4] invokestatic #10
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+      [7] aload_0 v0
+      [8] getfield #7
+        - Fieldref [net/zenconsult/android/chucknorris/c.b Ljava/lang/String;]
+      [11] invokevirtual #8
+        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class net.zenconsult.android.chucknorris.d extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 46):
+  - String [Fetching fact...]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [android/widget/TextView]
+  - Class [java/lang/Object]
+  - Class [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  - Class [net/zenconsult/android/chucknorris/b]
+  - Class [net/zenconsult/android/chucknorris/d]
+  - Fieldref [net/zenconsult/android/chucknorris/d.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.b (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;]
+  - Methodref [net/zenconsult/android/chucknorris/b.<init> (Lnet/zenconsult/android/chucknorris/a;)V]
+  - Methodref [net/zenconsult/android/chucknorris/b.start ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lnet/zenconsult/android/chucknorris/a;)V]
+  + NameAndType [a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + NameAndType [a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  + NameAndType [b (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [start ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V]
+  + Utf8 [(Lnet/zenconsult/android/chucknorris/a;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Fetching fact...]
+  + Utf8 [Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity]
+  + Utf8 [net/zenconsult/android/chucknorris/b]
+  + Utf8 [net/zenconsult/android/chucknorris/d]
+  + Utf8 [onClick]
+  + Utf8 [setText]
+  + Utf8 [start]
+
+Fields (count = 1):
+  + Field:        a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;
+    Access flags: 0x1002
+      = private net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)V
+    Access flags: 0x0
+      = d(net.zenconsult.android.chucknorris.ChuckNorrisFactsActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        - Fieldref [net/zenconsult/android/chucknorris/d.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #11
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 30, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #9
+        - Fieldref [net/zenconsult/android/chucknorris/d.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+      [4] invokestatic #12
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.a (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Landroid/widget/TextView;]
+      [7] ldc #1
+        - String [Fetching fact...]
+      [9] invokevirtual #10
+        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [12] new #7
+        - Class [net/zenconsult/android/chucknorris/b]
+      [15] dup
+      [16] aload_0 v0
+      [17] getfield #9
+        - Fieldref [net/zenconsult/android/chucknorris/d.a Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;]
+      [20] invokestatic #13
+        - Methodref [net/zenconsult/android/chucknorris/ChuckNorrisFactsActivity.b (Lnet/zenconsult/android/chucknorris/ChuckNorrisFactsActivity;)Lnet/zenconsult/android/chucknorris/a;]
+      [23] invokespecial #14
+        - Methodref [net/zenconsult/android/chucknorris/b.<init> (Lnet/zenconsult/android/chucknorris/a;)V]
+      [26] invokevirtual #15
+        - Methodref [net/zenconsult/android/chucknorris/b.start ()V]
+      [29] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: net/zenconsult/android/chucknorris/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class net.zenconsult.android.chucknorris.e extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 196):
+  - String []
+  - String [CN]
+  - String [Non 200 Status Code ]
+  - String [class]
+  - String [div]
+  - String [http://www.chucknorrisfacts.com/]
+  - String [span]
+  - String [views-field-title]
+  - Class [android/util/Log]
+  - Class [java/io/IOException]
+  - Class [java/io/InputStream]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/util/Random]
+  - Class [java/util/Vector]
+  - Class [javax/xml/parsers/DocumentBuilder]
+  - Class [javax/xml/parsers/DocumentBuilderFactory]
+  - Class [javax/xml/parsers/ParserConfigurationException]
+  - Class [net/zenconsult/android/chucknorris/e]
+  - Class [org/apache/http/HttpEntity]
+  - Class [org/apache/http/HttpResponse]
+  - Class [org/apache/http/StatusLine]
+  - Class [org/apache/http/client/ClientProtocolException]
+  - Class [org/apache/http/client/methods/HttpGet]
+  - Class [org/apache/http/impl/client/DefaultHttpClient]
+  - Class [org/w3c/dom/Document]
+  - Class [org/w3c/dom/NamedNodeMap]
+  - Class [org/w3c/dom/Node]
+  - Class [org/w3c/dom/NodeList]
+  - Class [org/xml/sax/SAXException]
+  - Fieldref [net/zenconsult/android/chucknorris/e.a Ljava/lang/String;]
+  - Fieldref [net/zenconsult/android/chucknorris/e.b Lorg/apache/http/impl/client/DefaultHttpClient;]
+  - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [java/io/IOException.printStackTrace ()V]
+  - Methodref [java/io/InputStream.close ()V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - Methodref [java/lang/String.equalsIgnoreCase (Ljava/lang/String;)Z]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/util/Random.<init> ()V]
+  - Methodref [java/util/Random.nextInt (I)I]
+  - Methodref [java/util/Vector.<init> ()V]
+  - Methodref [java/util/Vector.add (Ljava/lang/Object;)Z]
+  - Methodref [java/util/Vector.get (I)Ljava/lang/Object;]
+  - Methodref [java/util/Vector.size ()I]
+  - Methodref [javax/xml/parsers/DocumentBuilder.parse (Ljava/io/InputStream;)Lorg/w3c/dom/Document;]
+  - Methodref [javax/xml/parsers/DocumentBuilderFactory.newDocumentBuilder ()Ljavax/xml/parsers/DocumentBuilder;]
+  - Methodref [javax/xml/parsers/DocumentBuilderFactory.newInstance ()Ljavax/xml/parsers/DocumentBuilderFactory;]
+  - Methodref [javax/xml/parsers/ParserConfigurationException.printStackTrace ()V]
+  - Methodref [net/zenconsult/android/chucknorris/e.a (Ljava/lang/String;)Ljava/io/InputStream;]
+  - Methodref [org/apache/http/client/ClientProtocolException.printStackTrace ()V]
+  - Methodref [org/apache/http/client/methods/HttpGet.<init> (Ljava/lang/String;)V]
+  - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+  - Methodref [org/apache/http/impl/client/DefaultHttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  - Methodref [org/xml/sax/SAXException.printStackTrace ()V]
+  - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+  - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+  - InterfaceMethodref [org/apache/http/HttpResponse.getStatusLine ()Lorg/apache/http/StatusLine;]
+  - InterfaceMethodref [org/apache/http/StatusLine.getStatusCode ()I]
+  - InterfaceMethodref [org/w3c/dom/Document.getElementsByTagName (Ljava/lang/String;)Lorg/w3c/dom/NodeList;]
+  - InterfaceMethodref [org/w3c/dom/NamedNodeMap.getLength ()I]
+  - InterfaceMethodref [org/w3c/dom/NamedNodeMap.getNamedItem (Ljava/lang/String;)Lorg/w3c/dom/Node;]
+  - InterfaceMethodref [org/w3c/dom/Node.getAttributes ()Lorg/w3c/dom/NamedNodeMap;]
+  - InterfaceMethodref [org/w3c/dom/Node.getChildNodes ()Lorg/w3c/dom/NodeList;]
+  - InterfaceMethodref [org/w3c/dom/Node.getNodeName ()Ljava/lang/String;]
+  - InterfaceMethodref [org/w3c/dom/Node.getNodeValue ()Ljava/lang/String;]
+  - InterfaceMethodref [org/w3c/dom/Node.getTextContent ()Ljava/lang/String;]
+  - InterfaceMethodref [org/w3c/dom/NodeList.getLength ()I]
+  - InterfaceMethodref [org/w3c/dom/NodeList.item (I)Lorg/w3c/dom/Node;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Ljava/lang/String;)Ljava/io/InputStream;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [b Lorg/apache/http/impl/client/DefaultHttpClient;]
+  + NameAndType [close ()V]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [equalsIgnoreCase (Ljava/lang/String;)Z]
+  + NameAndType [execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [getAttributes ()Lorg/w3c/dom/NamedNodeMap;]
+  + NameAndType [getChildNodes ()Lorg/w3c/dom/NodeList;]
+  + NameAndType [getContent ()Ljava/io/InputStream;]
+  + NameAndType [getElementsByTagName (Ljava/lang/String;)Lorg/w3c/dom/NodeList;]
+  + NameAndType [getEntity ()Lorg/apache/http/HttpEntity;]
+  + NameAndType [getLength ()I]
+  + NameAndType [getNamedItem (Ljava/lang/String;)Lorg/w3c/dom/Node;]
+  + NameAndType [getNodeName ()Ljava/lang/String;]
+  + NameAndType [getNodeValue ()Ljava/lang/String;]
+  + NameAndType [getStatusCode ()I]
+  + NameAndType [getStatusLine ()Lorg/apache/http/StatusLine;]
+  + NameAndType [getTextContent ()Ljava/lang/String;]
+  + NameAndType [item (I)Lorg/w3c/dom/Node;]
+  + NameAndType [newDocumentBuilder ()Ljavax/xml/parsers/DocumentBuilder;]
+  + NameAndType [newInstance ()Ljavax/xml/parsers/DocumentBuilderFactory;]
+  + NameAndType [nextInt (I)I]
+  + NameAndType [parse (Ljava/io/InputStream;)Lorg/w3c/dom/Document;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [size ()I]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()I]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljavax/xml/parsers/DocumentBuilder;]
+  + Utf8 [()Ljavax/xml/parsers/DocumentBuilderFactory;]
+  + Utf8 [()Lorg/apache/http/HttpEntity;]
+  + Utf8 [()Lorg/apache/http/StatusLine;]
+  + Utf8 [()Lorg/w3c/dom/NamedNodeMap;]
+  + Utf8 [()Lorg/w3c/dom/NodeList;]
+  + Utf8 [()V]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Lorg/w3c/dom/Node;]
+  + Utf8 [(Ljava/io/InputStream;)Lorg/w3c/dom/Document;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/InputStream;]
+  + Utf8 [(Ljava/lang/String;)Lorg/w3c/dom/Node;]
+  + Utf8 [(Ljava/lang/String;)Lorg/w3c/dom/NodeList;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+  + Utf8 [<init>]
+  + Utf8 [CN]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Lorg/apache/http/impl/client/DefaultHttpClient;]
+  + Utf8 [Non 200 Status Code ]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [class]
+  + Utf8 [close]
+  + Utf8 [div]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [equalsIgnoreCase]
+  + Utf8 [execute]
+  + Utf8 [get]
+  + Utf8 [getAttributes]
+  + Utf8 [getChildNodes]
+  + Utf8 [getContent]
+  + Utf8 [getElementsByTagName]
+  + Utf8 [getEntity]
+  + Utf8 [getLength]
+  + Utf8 [getNamedItem]
+  + Utf8 [getNodeName]
+  + Utf8 [getNodeValue]
+  + Utf8 [getStatusCode]
+  + Utf8 [getStatusLine]
+  + Utf8 [getTextContent]
+  + Utf8 [http://www.chucknorrisfacts.com/]
+  + Utf8 [item]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/Random]
+  + Utf8 [java/util/Vector]
+  + Utf8 [javax/xml/parsers/DocumentBuilder]
+  + Utf8 [javax/xml/parsers/DocumentBuilderFactory]
+  + Utf8 [javax/xml/parsers/ParserConfigurationException]
+  + Utf8 [net/zenconsult/android/chucknorris/e]
+  + Utf8 [newDocumentBuilder]
+  + Utf8 [newInstance]
+  + Utf8 [nextInt]
+  + Utf8 [org/apache/http/HttpEntity]
+  + Utf8 [org/apache/http/HttpResponse]
+  + Utf8 [org/apache/http/StatusLine]
+  + Utf8 [org/apache/http/client/ClientProtocolException]
+  + Utf8 [org/apache/http/client/methods/HttpGet]
+  + Utf8 [org/apache/http/impl/client/DefaultHttpClient]
+  + Utf8 [org/w3c/dom/Document]
+  + Utf8 [org/w3c/dom/NamedNodeMap]
+  + Utf8 [org/w3c/dom/Node]
+  + Utf8 [org/w3c/dom/NodeList]
+  + Utf8 [org/xml/sax/SAXException]
+  + Utf8 [parse]
+  + Utf8 [printStackTrace]
+  + Utf8 [size]
+  + Utf8 [span]
+  + Utf8 [toString]
+  + Utf8 [views-field-title]
+
+Fields (count = 2):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x12
+      = private final java.lang.String a
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    - String [http://www.chucknorrisfacts.com/]
+  + Field:        b Lorg/apache/http/impl/client/DefaultHttpClient;
+    Access flags: 0x2
+      = private org.apache.http.impl.client.DefaultHttpClient b
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #37
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] ldc #6
+        - String [http://www.chucknorrisfacts.com/]
+      [7] putfield #32
+        - Fieldref [net/zenconsult/android/chucknorris/e.a Ljava/lang/String;]
+      [10] aload_0 v0
+      [11] new #26
+        - Class [org/apache/http/impl/client/DefaultHttpClient]
+      [14] dup
+      [15] invokespecial #56
+        - Methodref [org/apache/http/impl/client/DefaultHttpClient.<init> ()V]
+      [18] putfield #33
+        - Fieldref [net/zenconsult/android/chucknorris/e.b Lorg/apache/http/impl/client/DefaultHttpClient;]
+      [21] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 254, locals = 12, stack = 4):
+      [0] aload_0 v0
+      [1] ldc #6
+        - String [http://www.chucknorrisfacts.com/]
+      [3] invokespecial #53
+        - Methodref [net/zenconsult/android/chucknorris/e.a (Ljava/lang/String;)Ljava/io/InputStream;]
+      [6] astore_1 v1
+      [7] invokestatic #51
+        - Methodref [javax/xml/parsers/DocumentBuilderFactory.newInstance ()Ljavax/xml/parsers/DocumentBuilderFactory;]
+      [10] astore_2 v2
+      [11] ldc #1
+        - String []
+      [13] astore_3 v3
+      [14] new #16
+        - Class [java/util/Vector]
+      [17] dup
+      [18] invokespecial #45
+        - Methodref [java/util/Vector.<init> ()V]
+      [21] astore v4
+      [23] aload_2 v2
+      [24] invokevirtual #50
+        - Methodref [javax/xml/parsers/DocumentBuilderFactory.newDocumentBuilder ()Ljavax/xml/parsers/DocumentBuilder;]
+      [27] aload_1 v1
+      [28] invokevirtual #49
+        - Methodref [javax/xml/parsers/DocumentBuilder.parse (Ljava/io/InputStream;)Lorg/w3c/dom/Document;]
+      [31] ldc #5
+        - String [div]
+      [33] invokeinterface #63
+        - InterfaceMethodref [org/w3c/dom/Document.getElementsByTagName (Ljava/lang/String;)Lorg/w3c/dom/NodeList;]
+      [38] astore_2 v2
+      [39] iconst_0
+      [40] istore v5
+      [42] goto +147 (target=189)
+      [45] aload_2 v2
+      [46] iload v5
+      [48] invokeinterface #72
+        - InterfaceMethodref [org/w3c/dom/NodeList.item (I)Lorg/w3c/dom/Node;]
+      [53] dup
+      [54] astore v6
+      [56] invokeinterface #66
+        - InterfaceMethodref [org/w3c/dom/Node.getAttributes ()Lorg/w3c/dom/NamedNodeMap;]
+      [61] astore v7
+      [63] iconst_0
+      [64] istore v8
+      [66] goto +108 (target=174)
+      [69] aload v7
+      [71] ldc #4
+        - String [class]
+      [73] invokeinterface #65
+        - InterfaceMethodref [org/w3c/dom/NamedNodeMap.getNamedItem (Ljava/lang/String;)Lorg/w3c/dom/Node;]
+      [78] ifnull +93 (target=171)
+      [81] aload v7
+      [83] ldc #4
+        - String [class]
+      [85] invokeinterface #65
+        - InterfaceMethodref [org/w3c/dom/NamedNodeMap.getNamedItem (Ljava/lang/String;)Lorg/w3c/dom/Node;]
+      [90] invokeinterface #69
+        - InterfaceMethodref [org/w3c/dom/Node.getNodeValue ()Ljava/lang/String;]
+      [95] ldc #8
+        - String [views-field-title]
+      [97] invokevirtual #38
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [100] ifeq +71 (target=171)
+      [103] aload v6
+      [105] invokeinterface #67
+        - InterfaceMethodref [org/w3c/dom/Node.getChildNodes ()Lorg/w3c/dom/NodeList;]
+      [110] astore v9
+      [112] iconst_0
+      [113] istore v10
+      [115] goto +44 (target=159)
+      [118] aload v9
+      [120] iload v10
+      [122] invokeinterface #72
+        - InterfaceMethodref [org/w3c/dom/NodeList.item (I)Lorg/w3c/dom/Node;]
+      [127] dup
+      [128] astore v11
+      [130] invokeinterface #68
+        - InterfaceMethodref [org/w3c/dom/Node.getNodeName ()Ljava/lang/String;]
+      [135] ldc #7
+        - String [span]
+      [137] invokevirtual #39
+        - Methodref [java/lang/String.equalsIgnoreCase (Ljava/lang/String;)Z]
+      [140] ifeq +16 (target=156)
+      [143] aload v4
+      [145] aload v11
+      [147] invokeinterface #70
+        - InterfaceMethodref [org/w3c/dom/Node.getTextContent ()Ljava/lang/String;]
+      [152] invokevirtual #46
+        - Methodref [java/util/Vector.add (Ljava/lang/Object;)Z]
+      [155] pop
+      [156] iinc v10, 1
+      [159] iload v10
+      [161] aload v9
+      [163] invokeinterface #71
+        - InterfaceMethodref [org/w3c/dom/NodeList.getLength ()I]
+      [168] ificmplt -50 (target=118)
+      [171] iinc v8, 1
+      [174] iload v8
+      [176] aload v7
+      [178] invokeinterface #64
+        - InterfaceMethodref [org/w3c/dom/NamedNodeMap.getLength ()I]
+      [183] ificmplt -114 (target=69)
+      [186] iinc v5, 1
+      [189] iload v5
+      [191] aload_2 v2
+      [192] invokeinterface #71
+        - InterfaceMethodref [org/w3c/dom/NodeList.getLength ()I]
+      [197] ificmplt -152 (target=45)
+      [200] new #15
+        - Class [java/util/Random]
+      [203] dup
+      [204] invokespecial #43
+        - Methodref [java/util/Random.<init> ()V]
+      [207] astore v5
+      [209] aload v4
+      [211] aload v5
+      [213] aload v4
+      [215] invokevirtual #48
+        - Methodref [java/util/Vector.size ()I]
+      [218] iconst_1
+      [219] isub
+      [220] invokevirtual #44
+        - Methodref [java/util/Random.nextInt (I)I]
+      [223] invokevirtual #47
+        - Methodref [java/util/Vector.get (I)Ljava/lang/Object;]
+      [226] checkcast #13
+        - Class [java/lang/String]
+      [229] astore_3 v3
+      [230] aload_1 v1
+      [231] invokevirtual #36
+        - Methodref [java/io/InputStream.close ()V]
+      [234] goto +18 (target=252)
+      [237] invokevirtual #58
+        - Methodref [org/xml/sax/SAXException.printStackTrace ()V]
+      [240] goto +12 (target=252)
+      [243] invokevirtual #35
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [246] goto +6 (target=252)
+      [249] invokevirtual #52
+        - Methodref [javax/xml/parsers/ParserConfigurationException.printStackTrace ()V]
+      [252] aload_3 v3
+      [253] areturn
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (23 -> 234: 237):
+      - Class [org/xml/sax/SAXException]
+      - ExceptionInfo (23 -> 234: 243):
+      - Class [java/io/IOException]
+      - ExceptionInfo (23 -> 234: 249):
+      - Class [javax/xml/parsers/ParserConfigurationException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 12):
+        - [45] Var: [a:net/zenconsult/android/chucknorris/e][a:java/io/InputStream][a:javax/xml/parsers/DocumentBuilderFactory][a:javax/xml/parsers/DocumentBuilder][a:org/w3c/dom/Document][a:java/lang/String][a:java/util/Vector][a:org/w3c/dom/NodeList][i], Stack: 
+        - [69] Var: ...[a:org/w3c/dom/Node][a:org/w3c/dom/NamedNodeMap][i], Stack: (empty)
+        - [118] Var: ...[a:org/w3c/dom/Node][a:org/w3c/dom/NodeList][i], Stack: (empty)
+        - [156] Var: ..., Stack: (empty)
+        - [159] Var: ..., Stack: (empty)
+        - [171] Var: -3, Stack: (empty)
+        - [174] Var: ..., Stack: (empty)
+        - [189] Var: -3, Stack: (empty)
+        - [237] Var: [a:net/zenconsult/android/chucknorris/e][a:java/io/InputStream][a:javax/xml/parsers/DocumentBuilderFactory][a:javax/xml/parsers/DocumentBuilder][a:org/w3c/dom/Document][a:java/lang/String][a:java/util/Vector], Stack: [a:org/xml/sax/SAXException]
+        - [243] Var: ..., Stack: [a:java/io/IOException]
+        - [249] Var: ..., Stack: [a:javax/xml/parsers/ParserConfigurationException]
+        - [252] Var: ..., Stack: (empty)
+  + Method:       a(Ljava/lang/String;)Ljava/io/InputStream;
+    Access flags: 0x2
+      = private java.io.InputStream a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 90, locals = 4, stack = 4):
+      [0] new #25
+        - Class [org/apache/http/client/methods/HttpGet]
+      [3] dup
+      [4] aload_1 v1
+      [5] invokespecial #55
+        - Methodref [org/apache/http/client/methods/HttpGet.<init> (Ljava/lang/String;)V]
+      [8] astore_1 v1
+      [9] aconst_null
+      [10] astore_2 v2
+      [11] aload_0 v0
+      [12] getfield #33
+        - Fieldref [net/zenconsult/android/chucknorris/e.b Lorg/apache/http/impl/client/DefaultHttpClient;]
+      [15] aload_1 v1
+      [16] invokevirtual #57
+        - Methodref [org/apache/http/impl/client/DefaultHttpClient.execute (Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;]
+      [19] dup
+      [20] astore_1 v1
+      [21] invokeinterface #61
+        - InterfaceMethodref [org/apache/http/HttpResponse.getStatusLine ()Lorg/apache/http/StatusLine;]
+      [26] invokeinterface #62
+        - InterfaceMethodref [org/apache/http/StatusLine.getStatusCode ()I]
+      [31] dup
+      [32] istore_3 v3
+      [33] sipush 200
+      [36] ificmpne +18 (target=54)
+      [39] aload_1 v1
+      [40] invokeinterface #60
+        - InterfaceMethodref [org/apache/http/HttpResponse.getEntity ()Lorg/apache/http/HttpEntity;]
+      [45] invokeinterface #59
+        - InterfaceMethodref [org/apache/http/HttpEntity.getContent ()Ljava/io/InputStream;]
+      [50] astore_2 v2
+      [51] goto +37 (target=88)
+      [54] ldc #2
+        - String [CN]
+      [56] new #14
+        - Class [java/lang/StringBuilder]
+      [59] dup
+      [60] ldc #3
+        - String [Non 200 Status Code ]
+      [62] invokespecial #40
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [65] iload_3 v3
+      [66] invokevirtual #41
+        - Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [69] invokevirtual #42
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [72] invokestatic #34
+        - Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [75] pop
+      [76] goto +12 (target=88)
+      [79] invokevirtual #54
+        - Methodref [org/apache/http/client/ClientProtocolException.printStackTrace ()V]
+      [82] goto +6 (target=88)
+      [85] invokevirtual #35
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [88] aload_2 v2
+      [89] areturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (11 -> 76: 79):
+      - Class [org/apache/http/client/ClientProtocolException]
+      - ExceptionInfo (11 -> 76: 85):
+      - Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [54] Var: [a:net/zenconsult/android/chucknorris/e][a:java/lang/String][a:org/apache/http/client/methods/HttpGet][a:java/io/InputStream][a:org/apache/http/HttpResponse][i], Stack: 
+        - [76] Var: ..., Stack: (empty)
+        - [79] Var: [a:net/zenconsult/android/chucknorris/e][a:java/lang/String][a:org/apache/http/client/methods/HttpGet][a:java/io/InputStream], Stack: [a:org/apache/http/client/ClientProtocolException]
+        - [85] Var: ..., Stack: [a:java/io/IOException]
+        - [88] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

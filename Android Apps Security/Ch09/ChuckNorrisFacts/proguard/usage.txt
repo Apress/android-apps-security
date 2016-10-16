@@ -1,0 +1,8 @@
+net.zenconsult.android.chucknorris.Comms:
+    86:103:public java.lang.String doGetAsString(java.lang.String)
+net.zenconsult.android.chucknorris.R
+net.zenconsult.android.chucknorris.R$attr
+net.zenconsult.android.chucknorris.R$drawable
+net.zenconsult.android.chucknorris.R$id
+net.zenconsult.android.chucknorris.R$layout
+net.zenconsult.android.chucknorris.R$string

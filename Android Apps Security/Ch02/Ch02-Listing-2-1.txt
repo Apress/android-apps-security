@@ -1,0 +1,69 @@
+package net.zenconsult.android.controller;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import net.zenconsult.android.model.Contact;
+import net.zenconsult.android.model.Location;
+import android.content.Context;
+import android.os.Environment;
+import android.util.Log;
+
+public class SaveController {
+	private static final String TAG = "SaveController";
+	
+	public static void saveContact(Context context, Contact contact) {
+		if (isReadWrite()) {
+			try {
+File outputFile = new File(context.getExternalFilesDir(null),contact.getFirstName());
+FileOutputStream outputStream = new FileOutputStream(outputFile);
+				outputStream.write(contact.getBytes());
+				outputStream.close();
+
+			} catch (FileNotFoundException e) {
+				Log.e(TAG,"File not found");
+			} catch (IOException e) {
+				Log.e(TAG,"IO Exception");
+			}
+
+		} else {
+			Log.e(TAG,"Error opening media card in read/write mode!");
+		}
+	}
+
+	public static void saveLocation(Context context, Location location) {
+		if (isReadWrite()) {
+			try {
+File outputFile = new File(context.getExternalFilesDir(null),location.getIdentifier());
+FileOutputStream outputStream = new FileOutputStream(outputFile);
+				outputStream.write(location.getBytes());
+				outputStream.close();
+
+			} catch (FileNotFoundException e) {
+				Log.e(TAG,"File not found");
+			} catch (IOException e) {
+				Log.e(TAG,"IO Exception");
+			}
+
+		} else {
+			Log.e(TAG,"Error opening media card in read/write mode!");
+		}
+	}
+
+	private static boolean isReadOnly() {
+		Log.e(TAG,Environment
+				.getExternalStorageState());
+		return Environment.MEDIA_MOUNTED_READ_ONLY.equals(Environment
+				.getExternalStorageState());
+	}
+
+	private static boolean isReadWrite() {
+		Log.e(TAG,Environment
+				.getExternalStorageState());
+		
+		return Environment.MEDIA_MOUNTED.equals(Environment
+				.getExternalStorageState());
+	}
+}

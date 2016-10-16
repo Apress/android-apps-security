@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CommercialAppActivity!</string>
+    <string name="app_name">Chuck Norris Facts</string>
+    <string name="factLabel">Random Chuck Norris Fact</string>
+    <string name="getFact">Get Fact!</string>
+
+</resources>

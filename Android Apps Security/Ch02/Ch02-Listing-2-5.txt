@@ -1,0 +1,22 @@
+private static byte[] encrypt(byte[] key, byte[] data){
+		SecretKeySpec sKeySpec = new SecretKeySpec(key,"AES");
+		Cipher cipher;
+		byte[] ciphertext = null;
+		try {
+			cipher = Cipher.getInstance("AES");
+			cipher.init(Cipher.ENCRYPT_MODE, sKeySpec);
+			ciphertext = cipher.doFinal(data);
+		} catch (NoSuchAlgorithmException e) {
+			Log.e(TAG,"NoSuchAlgorithmException");
+		} catch (NoSuchPaddingException e) {
+			Log.e(TAG,"NoSuchPaddingException");
+		} catch (IllegalBlockSizeException e) {
+			Log.e(TAG,"IllegalBlockSizeException");
+		} catch (BadPaddingException e) {
+			Log.e(TAG,"BadPaddingException");
+		} catch (InvalidKeyException e) {
+			Log.e(TAG,"InvalidKeyException");
+		}
+		return ciphertext;
+		
+	}
